@@ -9,6 +9,11 @@ If you can cast a problem as a set of vertices and edges, then consider if
 [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) is
 a fair solution.
 
+I best remember this problem from interviews with Google and Counsyl. Google
+directly asked it as shortest path given a map. Counsyl was a bit more sneaky
+and posed it as reassembly of chunks of data from a satellite that were
+repeated, varied in length and arrived out of order.
+
 ### Example Graph
 
 Here is an example of a weighted, direct graph from Wikipedia made by Artyom
