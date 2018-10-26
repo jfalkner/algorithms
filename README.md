@@ -7,8 +7,24 @@ problems in my career.
 If you like any of these, feel free to use them as long as you credit me as the
 author and link back to this repo.
 
-* [**Shortest path example**](shortest_path)
-   * This is a common code challenge. I best remember it from interviews with
-     Google and Counsyl. Google directly asked it as shortest path given a map.
-     Counsyl was a bit more sneaky and posed it as reassembly of chunks of data
-     from a satellite that were repeated, varied in length and arrived out of order.
+### Checking this guy's GitHub
+
+If you are doing a normal, deeper dig in to my repo to gauge if I can code, here
+are a few examples to focus on. The bigger list below is probably more time than
+you want to spend here.
+
+| Algorithm       | Type     | Desc                                                                                       |
+|-----------------|----------|--------------------------------------------------------------------------------------------|
+| [Shortest Path](code/shortest_path/README.md)   | Graph    | Common CS concept but non-trivial algorithm                                                |
+| [Finding Repeats](code/finding_repeats/README.md) | FizzBuzz | Sneaky can-you-code question with easy followups for "can it be improved" style questions. |
+
+### All Algorithms
+
+Full list of stuff in this repo. Sorted loosely by type.
+
+| Algorithm       | Type     | Desc                                                                                       |
+|-----------------|----------|--------------------------------------------------------------------------------------------|
+| [Shortest Path](code/shortest_path/README.md)   | Graph    | Common CS concept but non-trivial algorithm                                                |
+| [Finding Repeats](code/finding_repeats/README.md) | FizzBuzz | Sneaky can-you-code question with easy followups for "can it be improved" style questions. |
+| [Valid Parentheses](code/valid_parentheses/README.md) | FizzBuzz | Geeky version of FizzBuzz |
+| [FizzBuzz](code/fizzbuzz/README.md) | FizzBuzz | Original can-you-code question. |
