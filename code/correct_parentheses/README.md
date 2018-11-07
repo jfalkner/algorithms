@@ -12,12 +12,9 @@ by a programmer-friendly concept. Code doesn't compile if syntax isn't correct.
 > Invalid = ( or ) or )( or ))(( or ())(
 
 Important thing here is not to over think it. It is a simple problem and almost
-certainly has a O(n) style solution. 
-
-I was asked this during interviews at PacBio. It struck me as unusual given my 
-10+ years of experience, my publications and talks, and lots complex code 
-examples in GitHub. In any case, not much choice but to jump the hoop and also
-not fair to assume interviewers have researched candidates.
+certainly has a O(n) style solution. I was first asked this during interviews
+at PacBio. The context and setup felt like a FizzBuzz, and talking through a few
+examples reduced it to just that. 
 
 ### Solution
 
