@@ -35,7 +35,7 @@ for i in range(1, 101):
 And output matches Wikipedia's example.
 
 ```bash
-$ python fizzbuzz.py 
+$ python3 fizzbuzz.py | head -n 15
 1
 2
 Fizz
@@ -46,5 +46,10 @@ Fizz
 8
 Fizz
 Buzz
+11
+Fizz
+13
+14
+FizzBuzz
 ...
 ```
