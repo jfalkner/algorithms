@@ -16,6 +16,7 @@ you want to spend here.
 | Algorithm       | Type     | Desc                                                                                       |
 |-----------------|----------|--------------------------------------------------------------------------------------------|
 | [Shortest Path](code/shortest_path/README.md)   | Graph    | Common CS concept but non-trivial algorithm                                                |
+| [Making Change](code/making_change/README.md)   | Dynamic Programming | Common CS concept and clever code interview question                                                |
 | [Finding Repeats](code/finding_repeats/README.md) | FizzBuzz | Sneaky can-you-code question with easy followups for "can it be improved" style questions. |
 
 ### All Algorithms
@@ -25,6 +26,7 @@ Full list of stuff in this repo. Sorted loosely by type.
 | Algorithm       | Type     | Desc                                                                                       |
 |-----------------|----------|--------------------------------------------------------------------------------------------|
 | [Shortest Path](code/shortest_path/README.md)   | Graph    | Common CS concept but non-trivial algorithm                                                |
+| [Making Change](code/making_change/README.md)   | Dynamic Programming | Common CS concept and clever code interview question                                                |
 | [Finding Repeats](code/finding_repeats/README.md) | FizzBuzz | Sneaky can-you-code question with easy followups for "can it be improved" style questions. |
 | [Valid Parentheses](code/valid_parentheses/README.md) | FizzBuzz | Geeky version of FizzBuzz |
 | [FizzBuzz](code/fizzbuzz/README.md) | FizzBuzz | Original can-you-code question. |
