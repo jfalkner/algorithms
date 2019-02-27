@@ -27,6 +27,7 @@ Full list of stuff in this repo. Sorted loosely by type.
 |-----------------|----------|--------------------------------------------------------------------------------------------|
 | [Shortest Path](code/shortest_path/README.md)   | Graph    | Common CS concept but non-trivial algorithm                                                |
 | [Making Change](code/making_change/README.md)   | Dynamic Programming | Common CS concept and clever code interview question                                                |
+| [sqrt](code/sqrt/README.md)   | Binary Search | Common CS algorithm and recursion |
 | [k-mers](code/kmers/README.md)   | Recursion | Common CS concept and arguably a FizzBuzz |
 | [Finding Repeats](code/finding_repeats/README.md) | FizzBuzz | Sneaky can-you-code question with easy followups for "can it be improved" style questions. |
 | [Valid Parentheses](code/valid_parentheses/README.md) | FizzBuzz | Geeky version of FizzBuzz |
