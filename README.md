@@ -30,5 +30,5 @@ Full list of stuff in this repo. Sorted loosely by type.
 | [sqrt](code/sqrt/README.md)   | Binary Search | Common CS algorithm and recursion |
 | [k-mers](code/kmers/README.md)   | Recursion | Common CS concept and arguably a FizzBuzz |
 | [Finding Repeats](code/finding_repeats/README.md) | FizzBuzz | Sneaky can-you-code question with easy followups for "can it be improved" style questions. |
-| [Valid Parentheses](code/valid_parentheses/README.md) | FizzBuzz | Geeky version of FizzBuzz |
+| [Valid Parentheses](code/correct_parentheses/README.md) | FizzBuzz | Geeky version of FizzBuzz |
 | [FizzBuzz](code/fizzbuzz/README.md) | FizzBuzz | Original can-you-code question. |
