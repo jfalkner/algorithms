@@ -6,7 +6,7 @@ set of characters and estimate the fraction of letters in the list of strings us
 build the trie from the target data set. An alphabet of (A, C, T, G, N) will be used.
 
 For example, if the list of strings used to construct the trie is {ACTG, AACT, TCAGG,
-TTGGA} and the set of target characters is {G, C} then the result is rougly 0.44 (8/18).
+TTGGA} and the set of target characters is {G, C} then the result is roughly 0.44 (8/18).
 
 Trie's have a lookup time dependent on the length of the word but not the number of
 strings used to build the trie (aka prefix tree). e.g. `O(n)` where `n` is the length
@@ -21,13 +21,13 @@ is on efficient memory usage considering two things:
    observation. 
 
 Below summarizes minimal work to pick out a relatively memory efficient trie
-representation and later refinement to try and optimized for repetitive DNA sequences.
+representation and later refinement to try and optimize for repetitive DNA sequences.
 Python's functional style of coding is used to keep data and functions concise and pure,
-easily testable.
+easily testable (by the doctest module in this case).
 
 ## Estimating Memory Efficiency
 
-Below consiers memory options for the first issue: Python. It assumes a more classic
+Below considers memory options for the first issue: Python. It assumes a more classic
 trie with a node for every possible character in the alphabet. This approximates worst
 size since no other optimizations are done. A per node counter is kept noting how many
 words ended at that node.
@@ -79,8 +79,8 @@ tuple.
 
 The algorithm was implemented in two parts:
 
-* `trie_dna.py` succinct minimally memory optimized via `__slots__` to avoid Python `dict` overhead
-* `trie_dna_optimized.py` optimized data structure representation and domain-specific optimization for repetitive sequences. Same code as `trie_dna.py` but extende to make the trie use substantially less memory.
+* [`trie_dna.py`](trie_dna.py) succinct and minimally memory optimized via `__slots__` to avoid Python `dict` overhead
+* [`trie_dna_optimized.py`](trie_dna_optimized.py) optimized data structure representation and domain-specific optimization for repetitive sequences. Same code as `trie_dna.py` but extended to make the trie use substantially less memory.
 
 
 Before showing the code, notice that Python's `doctest` module was used to in-line
@@ -131,7 +131,7 @@ ok
 Test passed.
 ```
 
-See [`trie_dna.py`](trie_dna.py) for a succinct version of a ptrie using a Python class with
+See [`trie_dna.py`](trie_dna.py) for a succinct version of a trie using a Python class with
 `__slots__`, which saves on the overhead of normal Python object creation (see [`memory_usage.py`](memory_usage.py)), including
 preventing the per-object `dict`. This code is ~100 lines and solves the main challenge.
 
@@ -159,16 +159,16 @@ FragileX-like Repetitive Sequence Memory Savings (aka using "Compressed" mode)
 The top series is for the larger set of sequences provided as an example. It shows that
 the `__slots__`-based implementation can be easily reduced by almost half. The second
 example shows a more complex example where CGG/CGN tri-allelic repeats are randomly
-generated 50 times to represent a mutated individual that has Fragile X and a DNA
-sequencer that gets confused by the GG repeats sometimes. 100 randomized sequences are
-combined in the trie. The repetitive sequence "compression" notably reduces memory
-usage by over 90%!
+appended 50 times to represent a mutated individual that has Fragile X and a DNA
+sequencer that gets confused by the GG repeats sometimes. 100 similar not identical
+randomized sequences are combined in the trie. The repetitive sequence "compression"
+notably reduces memory usage by over 90%!
 
 You can see the source-code for implementation details and some notes. Here are
 high-level optimizations that were done for the final results.
 
 
-0. __slots__ is still used same as before -- avoids the Python class `dict` overhead.
+0. `__slots__` is still used same as before -- avoids the Python class `dict` overhead.
    This results in `Node` instances of 120 bytes being used for each node in the trie.
 
 1. Use `int` as a terminal marker instead of a `Node` intance with `None` for all the
