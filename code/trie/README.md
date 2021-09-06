@@ -1,4 +1,4 @@
-# Trie DNA
+# Trie for DNA Sequences
 
 This is an example of using a [trie](https://en.wikipedia.org/wiki/Trie) for two
 specific purposes: efficiently representing DNA sequences and having a method to take a
