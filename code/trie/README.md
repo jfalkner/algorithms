@@ -22,7 +22,7 @@ is on efficient memory usage considering two things:
 
 Below summarizes minimal work to pick out a relatively memory efficient trie
 representation and later refinement to try and optimize for repetitive DNA sequences.
-Python's functional style of coding is used to keep data and functions concise and pure,
+[Python's functional style of coding](https://docs.python.org/3/howto/functional.html) is used to keep data and functions concise and pure,
 easily testable (by the doctest module in this case).
 
 ## Estimating Memory Efficiency
@@ -30,7 +30,7 @@ easily testable (by the doctest module in this case).
 Below considers memory options for the first issue: Python. It assumes a more classic
 trie with a node for every possible character in the alphabet. This approximates worst
 size since no other optimizations are done. A per node counter is kept noting how many
-words ended at that node.
+words ended at that node. e.g. 6 vars per node: references to child nodes for A, C, G, T, N and an int `count`. 
 
 Here are valid ways this could be represented.
 
@@ -44,7 +44,7 @@ Here are valid ways this could be represented.
 Python objects use.
 
 
-See the `memory_usage.py` Python script that makes up an example of each above and
+See the [`memory_usage.py`](./memory_usage.py) Python script that makes up an example of each above and
 produces the below results. It was run using a `venv` and the `requirements.txt`
 dependencies from this folder.
 
