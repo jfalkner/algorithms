@@ -18,6 +18,7 @@ you want to spend here.
 | [Shortest Path](code/shortest_path/README.md)   | Graph    | Common CS concept but non-trivial algorithm                                                |
 | [Making Change](code/making_change/README.md)   | Dynamic Programming | Common CS concept and clever code interview question                                                |
 | [Trie for DNA Sequences](code/trie/README.md)   | Graph |   Common CS data structure with DNA sequence / memory optimizations               |
+| [Values in Ranges](code/ranges/README.md) | Binary Search | Common CS algorithm used creatively |
 | [Finding Repeats](code/finding_repeats/README.md) | FizzBuzz | Sneaky can-you-code question with easy followups for "can it be improved" style questions. |
 
 ### All Algorithms
@@ -30,6 +31,7 @@ Full list of stuff in this repo. Sorted loosely by type.
 | [Making Change](code/making_change/README.md)   | Dynamic Programming | Common CS concept and clever code interview question                                                |
 | [sqrt](code/sqrt/README.md)   | Binary Search | Common CS algorithm and recursion |
 | [k-mers](code/kmers/README.md)   | Recursion | Common CS concept and arguably a FizzBuzz |
+| [Values in Ranges](code/ranges/README.md) | Binary Search | Common CS algorithm used creatively |
 | [Finding Repeats](code/finding_repeats/README.md) | FizzBuzz | Sneaky can-you-code question with easy followups for "can it be improved" style questions. |
 | [Valid Parentheses](code/correct_parentheses/README.md) | FizzBuzz | Geeky version of FizzBuzz |
 | [FizzBuzz](code/fizzbuzz/README.md) | FizzBuzz | Original can-you-code question |
