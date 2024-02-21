@@ -20,6 +20,7 @@ you want to spend here.
 | [Trie for DNA Sequences](code/trie/README.md)   | Graph |   Common CS data structure with DNA sequence / memory optimizations               |
 | [Values in Ranges](code/ranges/README.md) | Binary Search | Common CS algorithm used creatively |
 | [Finding Repeats](code/finding_repeats/README.md) | FizzBuzz | Sneaky can-you-code question with easy followups for "can it be improved" style questions. |
+| [Calculator](code/calculator/README.md) | Recursion | Simple solution, if recursive programming is used |
 
 ### All Algorithms
 
