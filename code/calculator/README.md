@@ -1,11 +1,8 @@
 # Calculator
 
-There are various ways to ask recursive programming questions. One example is to ask for a candidate to create a simple
-calculator that can solve equations that include *, /, +, -. Precedence matters too. * and / should be evaluated before
-+ and -.
+There are various ways to ask recursive programming questions. One example is to ask for a candidate to create a simple calculator that can solve equations that include *, /, +, -. Precedence matters too. * and / should be evaluated before + and -.
 
-I've been asked forms of this question from various interviews. It is more along the lines of a meatier problem to ask
-someone to solve in 30 minutes. Not because any of it is particularly hard, but because it has two distinct steps.
+I've been asked forms of this question from various interviews. It is more along the lines of a meatier problem to ask someone to solve in 30 minutes. Not because any of it is particularly hard, but because it has two distinct steps.
 
 1. Parse the string to an equation (this largely uninteresting plumbing / FizzBuzz)
 2. Calcuate the result of a parsed equation, respecting operator precedence
@@ -31,7 +28,6 @@ Here are some example equations. Always assume that inputs are correctly formatt
 
 `1 + 2 / 2 * 3 + 4 / 2 - 1` longer equation with all operands, multiple use of similar operands and precedence. Answer
 `5` aka `1 + 3 + 2 - 1`.
-```
 
 A sneaky thing to note is how `/` is handled. If we're doing division, does it matter if the fractions are kept and at
 what precision? A reasonable requirement is that floating point precision is used. You can't keep everything as a string
