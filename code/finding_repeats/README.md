@@ -11,11 +11,11 @@ It is helpful to not over think an initial answer. If these items are sorted,
 you can simply find what number appears twice. That works. Then pause to think
 if O(n log n) can be dropped to O(n) or better.
 
-I was asked this question by Duo Security during interviews. It seemed clearly
-to be a FizzBuzz style question; however, the lead interviewer was also clearly
-experienced. I suspected he wanted to check my communication skills and be
-able to ask follow-up questions about the problem. The below solutions walk
-through the discussion we had.
+I was asked a similar question during an interview to be a senior software engineer.
+It seemed clearly to be a FizzBuzz style question; however, the lead
+interviewer was also clearly experienced. I suspected he wanted to check my 
+communication skills and be able to ask follow-up questions about the problem.
+The below solutions walk through the discussion we had.
 
 ### Solution #1: Easy O(n log n)
 
