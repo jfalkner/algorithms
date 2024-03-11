@@ -1,6 +1,6 @@
 # Fitting Boxes
 
-The challenge here is to provide information about a list of boxes being fit in to a container. This may initially seem similar to the [knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem); however, it is simplified so that it is actually much simpler.
+The challenge here is to provide information about a list of boxes being fit in to a container. This may initially seem similar to the [knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem); however, it is simplified so that it is actually much easier.
 
 Here is the problem.
 
@@ -10,7 +10,7 @@ Here is the problem.
 
 This problem can be visualized with the following example
 
-[example_packed_boxes](example_packed_boxes.png)
+![example_packed_boxes](example_packed_boxes.png)
 
 Notice that in the example, the column width is the maximum of the widest box packed. There is no overlap horizontally between columns. This is a big hint because it helps imply that this problem isn't really about packing boxes efficiently.
 
