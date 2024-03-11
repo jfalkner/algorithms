@@ -58,9 +58,3 @@ def pack_boxes(container: Box, boxes: List[Box]) -> List[Point]:
 
     # Make an in-memory list, but could convert this entire function to lazy evaluate
     return list(pack_box(0, 0, 0, boxes))
-
-
-# Two columns fit all boxes
-# print([(p.x, p.y) for p in pack_boxes(
-#     Box(10, 10), [Box(1, 5), Box(2, 5), Box(1, 1)]
-# )])
