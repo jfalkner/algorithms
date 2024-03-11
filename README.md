@@ -38,3 +38,4 @@ Full list of stuff in this repo. Sorted loosely by type.
 | [FizzBuzz](code/fizzbuzz/README.md) | FizzBuzz | Original can-you-code question |
 | [Filter Words](code/filter_words/README.md) | FizzBuzz | Can you code and keep code simple |
 | [Calculator](code/calculator/README.md) | Recursion | Simple solution, if recursive programming is used |
+| [Packing Boxes](code/boxes/README.md) | Recursion | Recursion that'd benefit from tail-call optimization |
